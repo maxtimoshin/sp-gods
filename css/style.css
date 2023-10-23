@@ -1,0 +1,41 @@
+@import "./main.css";
+@import "./modal.css";
+@import "./fonts.css";
+@import "./burger-nav.css";
+@import "./normalize.css";
+@import "./adaptive.css";
+
+body.lock {
+    overflow: hidden;
+}
+
+body {
+    font-family: "Futura PT";
+    color: #fff;
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+    :root {
+        zoom: 1;
+    }
+}
+@media (-webkit-device-pixel-ratio: 1.1) {
+    :root {
+        zoom: 1;
+    }
+}
+@media (-webkit-device-pixel-ratio: 1.5) {
+    :root {
+        zoom: 1;
+    }
+}
+/* @media (-webkit-device-pixel-ratio: 1.75) {
+    :root {
+        zoom: 0.8;
+    }
+}
+@media (-webkit-device-pixel-ratio: 2) {
+    :root {
+        zoom: 0.8;
+    }
+} */
